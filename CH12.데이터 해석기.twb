@@ -1,0 +1,1294 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20213.22.0213.1115                               -->
+<workbook original-version='18.1' source-build='2021.3.8 (20213.22.0213.1115)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='서비스요금(data_sample)' inline='true' name='federated.0zsaasq0rrba081ap5p861vgcbdr' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='data_sample' name='excel-direct.0rsfvo60b3r5g91d2zcz311a6zqb'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='C:/Users/A202112006/Desktop/Tableau 강의/실습자료/CH12/data_sample.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0rsfvo60b3r5g91d2zcz311a6zqb' name='서비스요금' table='[서비스요금$]' type='table'>
+          <columns gridOrigin='A1:BL51:no:A1:BL51:1' header='no' lost='0' outcome='1' processed='2373'>
+            <column datatype='string' name='지역   품목' ordinal='0' />
+            <column datatype='string' name='조사기준' ordinal='1' />
+            <column datatype='integer' name='중앙동 지역' ordinal='2' />
+            <column datatype='integer' name='효,산내동 지역' ordinal='3' />
+            <column datatype='integer' name='판암동 지역' ordinal='4' />
+            <column datatype='integer' name='용운동 지역' ordinal='5' />
+            <column datatype='integer' name='자양.신인동 지역' ordinal='6' />
+            <column datatype='integer' name='성남.대동 지역' ordinal='7' />
+            <column datatype='integer' name='가양동 지역' ordinal='8' />
+            <column datatype='integer' name='용전동 지역' ordinal='9' />
+            <column datatype='integer' name='삼성,홍도동 지역' ordinal='10' />
+            <column datatype='integer' name='은행선화동' ordinal='11' />
+            <column datatype='integer' name='목동' ordinal='12' />
+            <column datatype='integer' name='중촌동' ordinal='13' />
+            <column datatype='integer' name='대흥동' ordinal='14' />
+            <column datatype='integer' name='문창동' ordinal='15' />
+            <column datatype='integer' name='석교동' ordinal='16' />
+            <column datatype='integer' name='대사동' ordinal='17' />
+            <column datatype='integer' name='부사동' ordinal='18' />
+            <column datatype='integer' name='용두동' ordinal='19' />
+            <column datatype='integer' name='오류동' ordinal='20' />
+            <column datatype='integer' name='태평동' ordinal='21' />
+            <column datatype='integer' name='유천동' ordinal='22' />
+            <column datatype='integer' name='문화동' ordinal='23' />
+            <column datatype='integer' name='산성동' ordinal='24' />
+            <column datatype='integer' name='복수동' ordinal='25' />
+            <column datatype='integer' name='도마1동' ordinal='26' />
+            <column datatype='integer' name='도마2동' ordinal='27' />
+            <column datatype='integer' name='정림동' ordinal='28' />
+            <column datatype='integer' name='변동' ordinal='29' />
+            <column datatype='integer' name='용문동' ordinal='30' />
+            <column datatype='integer' name='탄방동' ordinal='31' />
+            <column datatype='integer' name='둔산1동' ordinal='32' />
+            <column datatype='integer' name='둔산2동' ordinal='33' />
+            <column datatype='integer' name='둔산3동' ordinal='34' />
+            <column datatype='integer' name='괴정동' ordinal='35' />
+            <column datatype='integer' name='가장동' ordinal='36' />
+            <column datatype='integer' name='내동' ordinal='37' />
+            <column datatype='integer' name='갈마1동' ordinal='38' />
+            <column datatype='integer' name='갈마2동' ordinal='39' />
+            <column datatype='integer' name='월평1동' ordinal='40' />
+            <column datatype='integer' name='월평2,3동' ordinal='41' />
+            <column datatype='integer' name='만년동' ordinal='42' />
+            <column datatype='integer' name='가수원,기성동' ordinal='43' />
+            <column datatype='integer' name='관저1동' ordinal='44' />
+            <column datatype='integer' name='관저2동' ordinal='45' />
+            <column datatype='integer' name='진잠동' ordinal='46' />
+            <column datatype='integer' name='온천1동' ordinal='47' />
+            <column datatype='integer' name='노은동' ordinal='48' />
+            <column datatype='integer' name='신성동' ordinal='49' />
+            <column datatype='integer' name='전민동' ordinal='50' />
+            <column datatype='integer' name='구즉동' ordinal='51' />
+            <column datatype='integer' name='온천2동' ordinal='52' />
+            <column datatype='integer' name='원신흥동' ordinal='53' />
+            <column datatype='integer' name='오정동' ordinal='54' />
+            <column datatype='integer' name='대화동' ordinal='55' />
+            <column datatype='integer' name='회덕동' ordinal='56' />
+            <column datatype='integer' name='비래동' ordinal='57' />
+            <column datatype='integer' name='송촌동' ordinal='58' />
+            <column datatype='integer' name='중리동' ordinal='59' />
+            <column datatype='integer' name='법1,2동' ordinal='60' />
+            <column datatype='integer' name='신탄진동' ordinal='61' />
+            <column datatype='integer' name='석봉,목상동' ordinal='62' />
+            <column datatype='integer' name='덕암동' ordinal='63' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0rsfvo60b3r5g91d2zcz311a6zqb' name='서비스요금' table='[서비스요금$]' type='table'>
+          <columns gridOrigin='A1:BL51:no:A1:BL51:1' header='no' lost='0' outcome='1' processed='2373'>
+            <column datatype='string' name='지역   품목' ordinal='0' />
+            <column datatype='string' name='조사기준' ordinal='1' />
+            <column datatype='integer' name='중앙동 지역' ordinal='2' />
+            <column datatype='integer' name='효,산내동 지역' ordinal='3' />
+            <column datatype='integer' name='판암동 지역' ordinal='4' />
+            <column datatype='integer' name='용운동 지역' ordinal='5' />
+            <column datatype='integer' name='자양.신인동 지역' ordinal='6' />
+            <column datatype='integer' name='성남.대동 지역' ordinal='7' />
+            <column datatype='integer' name='가양동 지역' ordinal='8' />
+            <column datatype='integer' name='용전동 지역' ordinal='9' />
+            <column datatype='integer' name='삼성,홍도동 지역' ordinal='10' />
+            <column datatype='integer' name='은행선화동' ordinal='11' />
+            <column datatype='integer' name='목동' ordinal='12' />
+            <column datatype='integer' name='중촌동' ordinal='13' />
+            <column datatype='integer' name='대흥동' ordinal='14' />
+            <column datatype='integer' name='문창동' ordinal='15' />
+            <column datatype='integer' name='석교동' ordinal='16' />
+            <column datatype='integer' name='대사동' ordinal='17' />
+            <column datatype='integer' name='부사동' ordinal='18' />
+            <column datatype='integer' name='용두동' ordinal='19' />
+            <column datatype='integer' name='오류동' ordinal='20' />
+            <column datatype='integer' name='태평동' ordinal='21' />
+            <column datatype='integer' name='유천동' ordinal='22' />
+            <column datatype='integer' name='문화동' ordinal='23' />
+            <column datatype='integer' name='산성동' ordinal='24' />
+            <column datatype='integer' name='복수동' ordinal='25' />
+            <column datatype='integer' name='도마1동' ordinal='26' />
+            <column datatype='integer' name='도마2동' ordinal='27' />
+            <column datatype='integer' name='정림동' ordinal='28' />
+            <column datatype='integer' name='변동' ordinal='29' />
+            <column datatype='integer' name='용문동' ordinal='30' />
+            <column datatype='integer' name='탄방동' ordinal='31' />
+            <column datatype='integer' name='둔산1동' ordinal='32' />
+            <column datatype='integer' name='둔산2동' ordinal='33' />
+            <column datatype='integer' name='둔산3동' ordinal='34' />
+            <column datatype='integer' name='괴정동' ordinal='35' />
+            <column datatype='integer' name='가장동' ordinal='36' />
+            <column datatype='integer' name='내동' ordinal='37' />
+            <column datatype='integer' name='갈마1동' ordinal='38' />
+            <column datatype='integer' name='갈마2동' ordinal='39' />
+            <column datatype='integer' name='월평1동' ordinal='40' />
+            <column datatype='integer' name='월평2,3동' ordinal='41' />
+            <column datatype='integer' name='만년동' ordinal='42' />
+            <column datatype='integer' name='가수원,기성동' ordinal='43' />
+            <column datatype='integer' name='관저1동' ordinal='44' />
+            <column datatype='integer' name='관저2동' ordinal='45' />
+            <column datatype='integer' name='진잠동' ordinal='46' />
+            <column datatype='integer' name='온천1동' ordinal='47' />
+            <column datatype='integer' name='노은동' ordinal='48' />
+            <column datatype='integer' name='신성동' ordinal='49' />
+            <column datatype='integer' name='전민동' ordinal='50' />
+            <column datatype='integer' name='구즉동' ordinal='51' />
+            <column datatype='integer' name='온천2동' ordinal='52' />
+            <column datatype='integer' name='원신흥동' ordinal='53' />
+            <column datatype='integer' name='오정동' ordinal='54' />
+            <column datatype='integer' name='대화동' ordinal='55' />
+            <column datatype='integer' name='회덕동' ordinal='56' />
+            <column datatype='integer' name='비래동' ordinal='57' />
+            <column datatype='integer' name='송촌동' ordinal='58' />
+            <column datatype='integer' name='중리동' ordinal='59' />
+            <column datatype='integer' name='법1,2동' ordinal='60' />
+            <column datatype='integer' name='신탄진동' ordinal='61' />
+            <column datatype='integer' name='석봉,목상동' ordinal='62' />
+            <column datatype='integer' name='덕암동' ordinal='63' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>2</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:BL51:no:A1:BL51:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>2373</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>지역   품목</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[지역   품목]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>지역   품목</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>조사기준</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[조사기준]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>조사기준</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>중앙동 지역</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[중앙동 지역]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>중앙동 지역</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>효,산내동 지역</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[효,산내동 지역]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>효,산내동 지역</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>판암동 지역</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[판암동 지역]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>판암동 지역</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>용운동 지역</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[용운동 지역]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>용운동 지역</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>자양.신인동 지역</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[자양.신인동 지역]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>자양.신인동 지역</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>성남.대동 지역</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[성남.대동 지역]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>성남.대동 지역</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>가양동 지역</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[가양동 지역]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>가양동 지역</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>용전동 지역</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[용전동 지역]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>용전동 지역</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>삼성,홍도동 지역</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[삼성,홍도동 지역]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>삼성,홍도동 지역</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>은행선화동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[은행선화동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>은행선화동</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>목동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[목동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>목동</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>중촌동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[중촌동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>중촌동</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>대흥동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[대흥동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>대흥동</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>문창동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[문창동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>문창동</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>석교동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[석교동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>석교동</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>대사동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[대사동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>대사동</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>부사동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[부사동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>부사동</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>용두동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[용두동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>용두동</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>오류동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[오류동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>오류동</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>태평동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[태평동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>태평동</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>유천동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[유천동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>유천동</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>문화동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[문화동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>문화동</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>산성동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[산성동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>산성동</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>복수동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[복수동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>복수동</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>도마1동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[도마1동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>도마1동</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>도마2동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[도마2동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>도마2동</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>정림동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[정림동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>정림동</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>변동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[변동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>변동</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>용문동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[용문동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>용문동</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>탄방동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[탄방동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>탄방동</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>둔산1동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[둔산1동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>둔산1동</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>둔산2동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[둔산2동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>둔산2동</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>둔산3동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[둔산3동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>둔산3동</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>괴정동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[괴정동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>괴정동</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>가장동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[가장동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>가장동</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>내동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[내동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>내동</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>갈마1동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[갈마1동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>갈마1동</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>갈마2동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[갈마2동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>갈마2동</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>월평1동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[월평1동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>월평1동</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>월평2,3동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[월평2,3동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>월평2,3동</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>만년동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[만년동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>만년동</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>가수원,기성동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[가수원,기성동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>가수원,기성동</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>관저1동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[관저1동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>관저1동</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>관저2동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[관저2동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>관저2동</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>진잠동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[진잠동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>진잠동</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>온천1동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[온천1동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>온천1동</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>노은동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[노은동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>노은동</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>신성동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[신성동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>신성동</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>전민동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[전민동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>전민동</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>구즉동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[구즉동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>구즉동</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>온천2동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[온천2동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>온천2동</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>원신흥동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[원신흥동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>원신흥동</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>오정동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[오정동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>오정동</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>대화동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[대화동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>대화동</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>회덕동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[회덕동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>회덕동</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>비래동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[비래동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>비래동</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>송촌동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[송촌동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>송촌동</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>중리동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[중리동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>중리동</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>법1,2동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[법1,2동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>법1,2동</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>신탄진동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[신탄진동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>신탄진동</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>석봉,목상동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[석봉,목상동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>석봉,목상동</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>덕암동</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[덕암동]</local-name>
+            <parent-name>[서비스요금]</parent-name>
+            <remote-alias>덕암동</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서비스요금_2D7448519F834EF0B849D7047B8E589F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='서비스요금' datatype='table' name='[__tableau_internal_object_id__].[서비스요금_2D7448519F834EF0B849D7047B8E589F]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='서비스요금' id='서비스요금_2D7448519F834EF0B849D7047B8E589F'>
+            <properties context=''>
+              <relation connection='excel-direct.0rsfvo60b3r5g91d2zcz311a6zqb' name='서비스요금' table='[서비스요금$]' type='table'>
+                <columns gridOrigin='A1:BL51:no:A1:BL51:1' header='no' lost='0' outcome='1' processed='2373'>
+                  <column datatype='string' name='지역   품목' ordinal='0' />
+                  <column datatype='string' name='조사기준' ordinal='1' />
+                  <column datatype='integer' name='중앙동 지역' ordinal='2' />
+                  <column datatype='integer' name='효,산내동 지역' ordinal='3' />
+                  <column datatype='integer' name='판암동 지역' ordinal='4' />
+                  <column datatype='integer' name='용운동 지역' ordinal='5' />
+                  <column datatype='integer' name='자양.신인동 지역' ordinal='6' />
+                  <column datatype='integer' name='성남.대동 지역' ordinal='7' />
+                  <column datatype='integer' name='가양동 지역' ordinal='8' />
+                  <column datatype='integer' name='용전동 지역' ordinal='9' />
+                  <column datatype='integer' name='삼성,홍도동 지역' ordinal='10' />
+                  <column datatype='integer' name='은행선화동' ordinal='11' />
+                  <column datatype='integer' name='목동' ordinal='12' />
+                  <column datatype='integer' name='중촌동' ordinal='13' />
+                  <column datatype='integer' name='대흥동' ordinal='14' />
+                  <column datatype='integer' name='문창동' ordinal='15' />
+                  <column datatype='integer' name='석교동' ordinal='16' />
+                  <column datatype='integer' name='대사동' ordinal='17' />
+                  <column datatype='integer' name='부사동' ordinal='18' />
+                  <column datatype='integer' name='용두동' ordinal='19' />
+                  <column datatype='integer' name='오류동' ordinal='20' />
+                  <column datatype='integer' name='태평동' ordinal='21' />
+                  <column datatype='integer' name='유천동' ordinal='22' />
+                  <column datatype='integer' name='문화동' ordinal='23' />
+                  <column datatype='integer' name='산성동' ordinal='24' />
+                  <column datatype='integer' name='복수동' ordinal='25' />
+                  <column datatype='integer' name='도마1동' ordinal='26' />
+                  <column datatype='integer' name='도마2동' ordinal='27' />
+                  <column datatype='integer' name='정림동' ordinal='28' />
+                  <column datatype='integer' name='변동' ordinal='29' />
+                  <column datatype='integer' name='용문동' ordinal='30' />
+                  <column datatype='integer' name='탄방동' ordinal='31' />
+                  <column datatype='integer' name='둔산1동' ordinal='32' />
+                  <column datatype='integer' name='둔산2동' ordinal='33' />
+                  <column datatype='integer' name='둔산3동' ordinal='34' />
+                  <column datatype='integer' name='괴정동' ordinal='35' />
+                  <column datatype='integer' name='가장동' ordinal='36' />
+                  <column datatype='integer' name='내동' ordinal='37' />
+                  <column datatype='integer' name='갈마1동' ordinal='38' />
+                  <column datatype='integer' name='갈마2동' ordinal='39' />
+                  <column datatype='integer' name='월평1동' ordinal='40' />
+                  <column datatype='integer' name='월평2,3동' ordinal='41' />
+                  <column datatype='integer' name='만년동' ordinal='42' />
+                  <column datatype='integer' name='가수원,기성동' ordinal='43' />
+                  <column datatype='integer' name='관저1동' ordinal='44' />
+                  <column datatype='integer' name='관저2동' ordinal='45' />
+                  <column datatype='integer' name='진잠동' ordinal='46' />
+                  <column datatype='integer' name='온천1동' ordinal='47' />
+                  <column datatype='integer' name='노은동' ordinal='48' />
+                  <column datatype='integer' name='신성동' ordinal='49' />
+                  <column datatype='integer' name='전민동' ordinal='50' />
+                  <column datatype='integer' name='구즉동' ordinal='51' />
+                  <column datatype='integer' name='온천2동' ordinal='52' />
+                  <column datatype='integer' name='원신흥동' ordinal='53' />
+                  <column datatype='integer' name='오정동' ordinal='54' />
+                  <column datatype='integer' name='대화동' ordinal='55' />
+                  <column datatype='integer' name='회덕동' ordinal='56' />
+                  <column datatype='integer' name='비래동' ordinal='57' />
+                  <column datatype='integer' name='송촌동' ordinal='58' />
+                  <column datatype='integer' name='중리동' ordinal='59' />
+                  <column datatype='integer' name='법1,2동' ordinal='60' />
+                  <column datatype='integer' name='신탄진동' ordinal='61' />
+                  <column datatype='integer' name='석봉,목상동' ordinal='62' />
+                  <column datatype='integer' name='덕암동' ordinal='63' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='시트 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{7FC9B740-1513-4695-A253-FFAF1807FC4E}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='시트 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{20FAF5BC-7DB6-4AD2-9D1A-0055994A55D3}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='시트 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
