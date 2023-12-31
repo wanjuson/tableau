@@ -1,0 +1,20 @@
+1. Analyst Learning Path
+1.1 Get Started with Tableau	
+https://elearning-samples.tableau.com/getting-started-with-tableau/896548/scorm/lf7tenjqty6n
+
+1.1.1 Common types of data sets
+To read a chart, you don't need to be an expert in databases or spreadsheets. But with a small amount of data knowledge, you'll feel more at ease in the world of data. 
+
+After the connection, Tableau reads the data and assigns a data type to each field (see orange box).
+
+Users verify that Tableau has correctly assigned data types, and they can make changes on the Data Source page if the data type is wrong. They can also rename unclear or misspelled fields.
+
+Any changes made in Tableau are not written to the native data source. Changes are instead stored as metadata in a Tableau file called a Tableau Data Source, or .tds.
+
+After connecting to data and adjusting the metadata, users can open a sheet to begin building charts, analyzing data, and sharing results.
+
+
+1.1.2 A closer look at fields
+What is a field?
+A fields, also known as a column, is a single piece of information from a record in a data set.
+For example, if you were to collect data on how many times a week a commuter chose different modes of transportation, your data set could include:
