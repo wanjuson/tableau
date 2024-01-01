@@ -18,3 +18,6 @@ After connecting to data and adjusting the metadata, users can open a sheet to b
 What is a field?
 A fields, also known as a column, is a single piece of information from a record in a data set.
 For example, if you were to collect data on how many times a week a commuter chose different modes of transportation, your data set could include:
+
+Commuter name, Mode, and Days per week are all fields. Commuter name and Mode are qualitative fields, while Days per week is a quantitative field. 
+Commuter 통근자, 출퇴근자
