@@ -21,3 +21,13 @@ For example, if you were to collect data on how many times a week a commuter cho
 
 Commuter name, Mode, and Days per week are all fields. Commuter name and Mode are qualitative fields, while Days per week is a quantitative field. 
 Commuter 통근자, 출퇴근자
+
+Knowledge check
+In a data set, a field named Color that includes members such as red, green, blue, and orange is most likely :
+Qualitative
+​
+A quantitative field is best described as :
+A field that contains numerical data.
+​
+When Tableau connects to data, fields are assigned into two roles:
+Dimensions ans Measures​
