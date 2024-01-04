@@ -34,3 +34,4 @@ Dimensions ans Measures​
 
 연속형 데이터 [ Continuous Data ] , 이산형 데이터 (Discrete Data)
 
+tableau
