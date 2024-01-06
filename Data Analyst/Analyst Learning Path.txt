@@ -2,7 +2,8 @@
 1.1 Get Started with Tableau	
 https://elearning-samples.tableau.com/getting-started-with-tableau/896548/scorm/lf7tenjqty6n
 
-1.1.1 Common types of data sets
+1.1.1 Understanding Basix Data Concepts
+ㅁ Common types of data sets
 To read a chart, you don't need to be an expert in databases or spreadsheets. But with a small amount of data knowledge, you'll feel more at ease in the world of data. 
 
 After the connection, Tableau reads the data and assigns a data type to each field (see orange box).
@@ -14,7 +15,7 @@ Any changes made in Tableau are not written to the native data source. Changes a
 After connecting to data and adjusting the metadata, users can open a sheet to begin building charts, analyzing data, and sharing results.
 
 
-1.1.2 A closer look at fields
+ㅁ A closer look at fields
 What is a field?
 A fields, also known as a column, is a single piece of information from a record in a data set.
 For example, if you were to collect data on how many times a week a commuter chose different modes of transportation, your data set could include:
@@ -34,4 +35,12 @@ Dimensions ans Measures​
 
 연속형 데이터 [ Continuous Data ] , 이산형 데이터 (Discrete Data)
 
-tableau
+ㅁ How data is represented in Tableau
+Most dimensions are discrete fields.
+discrete 불연속, 이산형
+exclamation field 느낌표
+
+continuous means data value in the set can be any value in the range.
+
+
+
