@@ -68,6 +68,22 @@ Whether a pill is continuous or discrete also has an impact on default behavior 
 Filtering
 Filtering on a discrete pill, such as Category, brings up options related to the specific list of values for that pill. Filtering on a continuous measure pill, such as Profit, asks first if we want to filter at the row-level or aggregate level, then brings up options for continuous ranges.
 
+----------------------------------------------------------------------------------------
+1.1.2 Reading Common Chart Types
+
+leverages 영향력
+interpret 설명하다. 이해하다.
+orientation 방향
+cues 신호, 단서
+
+Finally, using a bar chart shows the full visualization with sales by length and profit ratio encoded by color. Immediately, the viewer can see highest sales and lowest profit.
+Visual analytics leverages visual cues humans automatically process with sensory memory. These visual cues are know as:
+
+Visual analytics leverages our pre‑attentive attributes, which are the visual cues humans automatically process with sensory memory. We can notice and interpret these kinds of attributes quickly and without special effort.
+
+
+
+
 
 
 
