@@ -42,5 +42,33 @@ exclamation field 느낌표
 
 continuous means data value in the set can be any value in the range.
 
+synonymous 동의어
+truncation 잘라냄, 절단
+
+ㅁ Why Pill Type Matters
+When we bring a field into the view from the data pane, Tableau creates a pill. Whether or not that pill is a dimension or a measure, or continuous or discrete, impacts every level of functionality in the analysis, from the way the data displays to the deeply technical, behind the scenes approach to how data is processed. Knowing the features of how Tableau works with pills is vital to staying in control of the analysis.
+
+- The value of a measure therefore depends on the context of the 
+dimensions. For example, the result for the sum of shipping cost is dependent on if we mean overall, just under a million and a half, or per Order Priority level, from 65 to about 550 thousand.
+
+- Dimensions are usually categorical fields such as Order Priority and Region. Specifically, in Tableau, dimensions set the granularity, or the level of detail in the view. We typically want to group our data by some combination of categories. What dimensions we use to build the view will determine how many marks we have – here we have 4 order priorities - critical to low – and we have 4 marks.
+
+- Changing Default Pill Types
+Most of the time, dimensions are discrete and measures are continuous. However, this isn’t always true. It’s possible to have a numerical dimension be continuous, or to convert a measure to discrete. For example, Discount is currently down here as a continuous measure, we may want to change it to discrete, by right clicking and selecting “convert to discrete”. When we hover over the pill, it’s now blue, and the icon is blue as well. We can also convert it to a dimension simply by dragging it into the Dimensions area of the data pane. Note that those two operations – converting to discrete and converting to a 
+dimension, are not synonymous.
+
+For the rest of this video, we’ll mostly be talking about continuous and discrete data instead of measures and dimensions. If you’re ever in doubt, remember: dimensions come out onto the view as themselves, measures come out onto the view as aggregates, discrete pills are BLUE, continuous pills are GREEN.
+
+Axis vs Label
+Let’s start with axes and labels. When a continuous pill is brought into the view, it creates an axis. This will automatically fill the entire view along that direction. When a discrete pill is brought into the view, it creates a label with panes for each value. This will take up as much or as little room as required
+
+Color and Maps
+Whether a pill is continuous or discrete also has an impact on default behavior for colors. A continuous pill on the color shelf will create a gradient. A discrete pill on the color shelf will create a color palette, where each unique value is assigned a color – here I made a copy of my Sales field and changed it to discrete, but the underlying data is identical. On a map, the default behavior depends on whether the pill is continuous or discrete, but also if it’s dimension or a measure. If the geographic type allows it, a measure on color defaults to a filled map. A dimension on color defaults to a symbol map. Whether these colors are gradients or palettes depends on if the pill is continuous or discrete.
+
+Filtering
+Filtering on a discrete pill, such as Category, brings up options related to the specific list of values for that pill. Filtering on a continuous measure pill, such as Profit, asks first if we want to filter at the row-level or aggregate level, then brings up options for continuous ranges.
+
+
+
 
 
