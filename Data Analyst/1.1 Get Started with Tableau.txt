@@ -81,7 +81,17 @@ Visual analytics leverages visual cues humans automatically process with sensory
 
 Visual analytics leverages our pre‑attentive attributes, which are the visual cues humans automatically process with sensory memory. We can notice and interpret these kinds of attributes quickly and without special effort.
 
+pre‑attentive attributes 사전 주의적 속성
+deliberately  고의로, 계획적으로
 
+legend  범례
+uniform 획일적인, 균일한
+typical 전형적인, 대표적인
+Correlation 연관성, 상관관계
+causation 인과관계
+diverge 갈라지다. 나뉘다.
+iterative 되플이하는, 반복의
+initial 처음의, 초기의
 
 
 
