@@ -92,8 +92,11 @@ causation 인과관계
 diverge 갈라지다. 나뉘다.
 iterative 되플이하는, 반복의
 initial 처음의, 초기의
-
-
+empowers 권한을 주다.
+confidently 자신있게, 대담하게
+incomplete 불완전한, 미완성의
+consistencies 일관성, 한결같은 <> inconsistencies 불일치, 모순
+scenario 시나리오, 각본
 
 
 
