@@ -98,6 +98,12 @@ incomplete 불완전한, 미완성의
 consistencies 일관성, 한결같은 <> inconsistencies 불일치, 모순
 scenario 시나리오, 각본
 
+In the videos above, you've seen how you can build visualizations in several different ways, including:
+- Dragging or double-clicking to put fields on Rows or Columns.
+- Dragging fields to the Marks card.
+- Dragging fields to the view.
+- Selecting fields and clicking on a chart type in Show Me. 
+You have also seen how to analyze data in a bar chart or crosstab. To see an example of when each chart type or method would be useful for analyzing your data, try the matching activity below.
 
 
 
