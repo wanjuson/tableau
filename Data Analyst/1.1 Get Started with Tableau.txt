@@ -105,5 +105,36 @@ In the videos above, you've seen how you can build visualizations in several dif
 - Selecting fields and clicking on a chart type in Show Me. 
 You have also seen how to analyze data in a bar chart or crosstab. To see an example of when each chart type or method would be useful for analyzing your data, try the matching activity below.
 
-
+narrative 이야기, 서술
+demonstrate 보여주다, 설명하다
+preparation 준비
+manipulate 조종하다, 다루다
+disparate 이질적인, 서로 전혀 다른
+integrate 통합시키다.
+repeatability 반복성 repeat 반복하다.
+sophisticated 세련된, 교양있는
+empowers 권한을 주다.
+confidently 자신있게, 대담하게
+incomplete 불완전한, 미완성의
+consistencies 일관성, 한결같은 <> inconsistencies 불일치, 모순
+scenario 시나리오, 각본
+capitalization 대문자사용
+punctuation 구두점
+oriented ~을 지향하는
+orient 지향하게 하다. 맞추다.
+reflection 반영, 반사
+descriptive 서술하는, 묘사하는
+compartmentalize 구분하다. 분류하다.
+annotation 주석 
+sequential 순차적인
+realigned 재편성하다. 재구성하다.
+Pronunciation 발음
+appropriate 적절한
+incrementally 증가하다. 증대하다.
+retrieve 되찾아오다, 회수하다, 검색하다.
+recapitulate ( recap )  (이미 한 말·결정 사항 등의) 개요를 말하다. 요약하다.
+illustration 삽화, 그림
+steward 관리자
+underlying 근본적인, 밑에 있는
+Ideally 이상적인
 
