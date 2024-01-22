@@ -137,4 +137,30 @@ illustration 삽화, 그림
 steward 관리자
 underlying 근본적인, 밑에 있는
 Ideally 이상적인
+collaborate 협력하다. 공동으로 작업하다
+unobtrusive 불필요하게 관심을 끌지 않는, 지나치게 야단스럽지 않은
+functionality 목적, 기능
+collapse 붕괴
+accommodate 공간을 제공하다. 수용하다
+enlarge 확대하다. 확장하다.
+corresponding ~에 해당하는, ~에 상응하는
+Lineage (Table 간의) 관계
+thumbnail 섬네일(페이지 전체의 레이아웃을 검토할 수 있게 페이지 전체를 작게 줄여 화면에 띄운 것)
+circumstances 사정, 상황
+cue 신호
+cumbersome 크고 무거운, 다루기 힘든
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
