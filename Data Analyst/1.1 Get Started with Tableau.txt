@@ -149,9 +149,10 @@ thumbnail 섬네일(페이지 전체의 레이아웃을 검토할 수 있게 페
 circumstances 사정, 상황
 cue 신호
 cumbersome 크고 무거운, 다루기 힘든
-
-
-
+slightly 약간, 조금
+predominantly 대게, 대부분
+Be aware 주의하다.
+prompt 즉각적인, 지체 없는, 신속한
 
 
 
