@@ -1,0 +1,11 @@
+vocabulary  단어
+
+previous 이전의, 바로앞의
+permissible 허용되는
+slight 약간의 조금의
+convoluted 대단히 난해한, 복잡한
+descriptive 서술묘사하는
+rectangles 직사각형
+
+
+
