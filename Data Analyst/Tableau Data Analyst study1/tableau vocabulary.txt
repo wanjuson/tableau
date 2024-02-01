@@ -8,5 +8,7 @@ descriptive 서술묘사하는
 rectangles 직사각형
 discrete 별개의
 granularity 세분성, 낱알 모양
+Concentrate 집중하다. 집중시키다
+
 
 
