@@ -14,3 +14,4 @@ equivalence 동등함, 등가, 상응
 animation > sequential : bar change geight, ant then it chang order
 simultaneous : At the same time, make the change
 
+test is godd.
