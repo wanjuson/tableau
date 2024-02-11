@@ -14,5 +14,6 @@ pane 판유리
 pilter 필터
 segmentation 분류
 
+
 animation > sequential : bar change geight, ant then it chang order
 simultaneous : At the same time, make the change
