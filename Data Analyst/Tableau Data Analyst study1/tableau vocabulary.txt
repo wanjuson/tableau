@@ -1,4 +1,4 @@
-vocabulary  단어장
+tableau vocabulary  단어
 
 previous 이전의, 바로앞의
 permissible 허용되는
