@@ -154,6 +154,7 @@ predominantly 대게, 대부분
 Be aware 주의하다.
 prompt 즉각적인, 지체 없는, 신속한
 oppose 반대하다.
+oppose 반대한다.
 
 
 
