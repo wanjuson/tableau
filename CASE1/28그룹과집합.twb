@@ -1,0 +1,833 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.23.1227.1336                               -->
+<workbook original-version='18.1' source-build='2023.3.1 (20233.23.1227.1336)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='방송판매 (방송판매)' inline='true' name='federated.1oh9knm1lokmf113pjpw41md6qfz' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='방송판매' name='excel-direct.072idde13dfmer11ayb9r0rnc773'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/신주현/Desktop/tableau/경영정보시각화능력 실기 모의문제_태블로-240808/실기 모의문제_태블로(B형)-240808/소스/문제2,3_데이터/방송판매.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.072idde13dfmer11ayb9r0rnc773' name='방송판매' table='[방송판매$]' type='table'>
+          <columns gridOrigin='A1:X968:no:A1:X968:0' header='yes' outcome='2'>
+            <column datatype='date' name='방송일' ordinal='0' />
+            <column datatype='string' name='주문번호' ordinal='1' />
+            <column datatype='integer' name='담당MD' ordinal='2' />
+            <column datatype='integer' name='거래처코드' ordinal='3' />
+            <column datatype='integer' name='제품번호' ordinal='4' />
+            <column datatype='string' name='담당호스트' ordinal='5' />
+            <column datatype='string' name='사원명' ordinal='6' />
+            <column datatype='string' name='직위' ordinal='7' />
+            <column datatype='date' name='입사일자' ordinal='8' />
+            <column datatype='string' name='거래처명' ordinal='9' />
+            <column datatype='string' name='분류' ordinal='10' />
+            <column datatype='string' name='상품명' ordinal='11' />
+            <column datatype='integer' name='준비수량' ordinal='12' />
+            <column datatype='integer' name='판매수량' ordinal='13' />
+            <column datatype='integer' name='매출계획2024' ordinal='14' />
+            <column datatype='integer' name='매출계획2023' ordinal='15' />
+            <column datatype='integer' name='총매출계획' ordinal='16' />
+            <column datatype='integer' name='판매가격' ordinal='17' />
+            <column datatype='integer' name='매입원가' ordinal='18' />
+            <column datatype='integer' name='전년_준비수량' ordinal='19' />
+            <column datatype='integer' name='전년_판매수량' ordinal='20' />
+            <column datatype='integer' name='전년_총매출계획' ordinal='21' />
+            <column datatype='integer' name='전년_판매가격' ordinal='22' />
+            <column datatype='integer' name='전년_매입원가' ordinal='23' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.072idde13dfmer11ayb9r0rnc773' name='방송판매' table='[방송판매$]' type='table'>
+          <columns gridOrigin='A1:X968:no:A1:X968:0' header='yes' outcome='2'>
+            <column datatype='date' name='방송일' ordinal='0' />
+            <column datatype='string' name='주문번호' ordinal='1' />
+            <column datatype='integer' name='담당MD' ordinal='2' />
+            <column datatype='integer' name='거래처코드' ordinal='3' />
+            <column datatype='integer' name='제품번호' ordinal='4' />
+            <column datatype='string' name='담당호스트' ordinal='5' />
+            <column datatype='string' name='사원명' ordinal='6' />
+            <column datatype='string' name='직위' ordinal='7' />
+            <column datatype='date' name='입사일자' ordinal='8' />
+            <column datatype='string' name='거래처명' ordinal='9' />
+            <column datatype='string' name='분류' ordinal='10' />
+            <column datatype='string' name='상품명' ordinal='11' />
+            <column datatype='integer' name='준비수량' ordinal='12' />
+            <column datatype='integer' name='판매수량' ordinal='13' />
+            <column datatype='integer' name='매출계획2024' ordinal='14' />
+            <column datatype='integer' name='매출계획2023' ordinal='15' />
+            <column datatype='integer' name='총매출계획' ordinal='16' />
+            <column datatype='integer' name='판매가격' ordinal='17' />
+            <column datatype='integer' name='매입원가' ordinal='18' />
+            <column datatype='integer' name='전년_준비수량' ordinal='19' />
+            <column datatype='integer' name='전년_판매수량' ordinal='20' />
+            <column datatype='integer' name='전년_총매출계획' ordinal='21' />
+            <column datatype='integer' name='전년_판매가격' ordinal='22' />
+            <column datatype='integer' name='전년_매입원가' ordinal='23' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[방송판매]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:X968:no:A1:X968:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>방송일</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[방송일]</local-name>
+            <parent-name>[방송판매]</parent-name>
+            <remote-alias>방송일</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[방송판매_E6691BAD09194860886F61384196E333]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>주문번호</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[주문번호]</local-name>
+            <parent-name>[방송판매]</parent-name>
+            <remote-alias>주문번호</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[방송판매_E6691BAD09194860886F61384196E333]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>담당MD</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[담당MD]</local-name>
+            <parent-name>[방송판매]</parent-name>
+            <remote-alias>담당MD</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[방송판매_E6691BAD09194860886F61384196E333]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>거래처코드</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[거래처코드]</local-name>
+            <parent-name>[방송판매]</parent-name>
+            <remote-alias>거래처코드</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[방송판매_E6691BAD09194860886F61384196E333]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>제품번호</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[제품번호]</local-name>
+            <parent-name>[방송판매]</parent-name>
+            <remote-alias>제품번호</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[방송판매_E6691BAD09194860886F61384196E333]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>담당호스트</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[담당호스트]</local-name>
+            <parent-name>[방송판매]</parent-name>
+            <remote-alias>담당호스트</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[방송판매_E6691BAD09194860886F61384196E333]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>사원명</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[사원명]</local-name>
+            <parent-name>[방송판매]</parent-name>
+            <remote-alias>사원명</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[방송판매_E6691BAD09194860886F61384196E333]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>직위</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[직위]</local-name>
+            <parent-name>[방송판매]</parent-name>
+            <remote-alias>직위</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[방송판매_E6691BAD09194860886F61384196E333]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>입사일자</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[입사일자]</local-name>
+            <parent-name>[방송판매]</parent-name>
+            <remote-alias>입사일자</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[방송판매_E6691BAD09194860886F61384196E333]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>거래처명</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[거래처명]</local-name>
+            <parent-name>[방송판매]</parent-name>
+            <remote-alias>거래처명</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[방송판매_E6691BAD09194860886F61384196E333]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>분류</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[분류]</local-name>
+            <parent-name>[방송판매]</parent-name>
+            <remote-alias>분류</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[방송판매_E6691BAD09194860886F61384196E333]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>상품명</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[상품명]</local-name>
+            <parent-name>[방송판매]</parent-name>
+            <remote-alias>상품명</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[방송판매_E6691BAD09194860886F61384196E333]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>준비수량</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[준비수량]</local-name>
+            <parent-name>[방송판매]</parent-name>
+            <remote-alias>준비수량</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[방송판매_E6691BAD09194860886F61384196E333]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>판매수량</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[판매수량]</local-name>
+            <parent-name>[방송판매]</parent-name>
+            <remote-alias>판매수량</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[방송판매_E6691BAD09194860886F61384196E333]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>매출계획2024</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[매출계획2024]</local-name>
+            <parent-name>[방송판매]</parent-name>
+            <remote-alias>매출계획2024</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[방송판매_E6691BAD09194860886F61384196E333]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>매출계획2023</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[매출계획2023]</local-name>
+            <parent-name>[방송판매]</parent-name>
+            <remote-alias>매출계획2023</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[방송판매_E6691BAD09194860886F61384196E333]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>총매출계획</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[총매출계획]</local-name>
+            <parent-name>[방송판매]</parent-name>
+            <remote-alias>총매출계획</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[방송판매_E6691BAD09194860886F61384196E333]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>판매가격</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[판매가격]</local-name>
+            <parent-name>[방송판매]</parent-name>
+            <remote-alias>판매가격</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[방송판매_E6691BAD09194860886F61384196E333]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>매입원가</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[매입원가]</local-name>
+            <parent-name>[방송판매]</parent-name>
+            <remote-alias>매입원가</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[방송판매_E6691BAD09194860886F61384196E333]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>전년_준비수량</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[전년_준비수량]</local-name>
+            <parent-name>[방송판매]</parent-name>
+            <remote-alias>전년_준비수량</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[방송판매_E6691BAD09194860886F61384196E333]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>전년_판매수량</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[전년_판매수량]</local-name>
+            <parent-name>[방송판매]</parent-name>
+            <remote-alias>전년_판매수량</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[방송판매_E6691BAD09194860886F61384196E333]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>전년_총매출계획</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[전년_총매출계획]</local-name>
+            <parent-name>[방송판매]</parent-name>
+            <remote-alias>전년_총매출계획</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[방송판매_E6691BAD09194860886F61384196E333]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>전년_판매가격</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[전년_판매가격]</local-name>
+            <parent-name>[방송판매]</parent-name>
+            <remote-alias>전년_판매가격</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[방송판매_E6691BAD09194860886F61384196E333]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>전년_매입원가</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[전년_매입원가]</local-name>
+            <parent-name>[방송판매]</parent-name>
+            <remote-alias>전년_매입원가</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[방송판매_E6691BAD09194860886F61384196E333]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='매출' datatype='integer' name='[Calculation_179581092849168384]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[판매가격]*[판매수량]' />
+      </column>
+      <column aggregation='Avg' caption='배송까지걸린시간' datatype='real' default-format='n#,##0.0;-#,##0.0' name='[Calculation_525513839231963136]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='ROUND( RANDOM()*10 ,0)' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='방송판매' datatype='table' name='[__tableau_internal_object_id__].[방송판매_E6691BAD09194860886F61384196E333]' role='measure' type='quantitative' />
+      <column caption='담당md' datatype='integer' name='[담당MD]' role='measure' type='quantitative' />
+      <column datatype='string' name='[담당호스트]' role='dimension' type='nominal' />
+      <column datatype='string' name='[상품명 (group)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[상품명]' default='&quot;Other&quot;' new-bin='true'>
+          <bin default-name='false' value='&quot;사무용품&quot;'>
+            <value>&quot;복합기K910&quot;</value>
+            <value>&quot;탁상용스탠드T20&quot;</value>
+            <value>&quot;HD모니터39K&quot;</value>
+            <value>&quot;PQ프로젝터101&quot;</value>
+            <value>&quot;SBJ-Printer200&quot;</value>
+            <value>&quot;Sori-Projecter310&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;스마트TV&quot;'>
+            <value>&quot;스마트TV-DR32&quot;</value>
+            <value>&quot;스마트TV-DR42&quot;</value>
+            <value>&quot;K스마트-5050V&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;조리도구&quot;'>
+            <value>&quot;슬로우쿠킹401P&quot;</value>
+            <value>&quot;오키슬로우쿠커UV&quot;</value>
+            <value>&quot;필리스튀김기4P&quot;</value>
+            <value>&quot;iH압력밥솥-T300&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='string' name='[상품명]' role='dimension' type='nominal' />
+      <column caption='전년 매입원가' datatype='integer' name='[전년_매입원가]' role='measure' type='quantitative' />
+      <column caption='전년 준비수량' datatype='integer' name='[전년_준비수량]' role='measure' type='quantitative' />
+      <column caption='전년 총매출계획' datatype='integer' name='[전년_총매출계획]' role='measure' type='quantitative' />
+      <column caption='전년 판매가격' datatype='integer' name='[전년_판매가격]' role='measure' type='quantitative' />
+      <column caption='전년 판매수량' datatype='integer' name='[전년_판매수량]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[제품번호]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[직위]' role='dimension' type='nominal' />
+      <column-instance column='[담당호스트]' derivation='None' name='[none:담당호스트:nk]' pivot='key' type='nominal' />
+      <column-instance column='[직위]' derivation='None' name='[none:직위:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:직위:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;과장&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;사원&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;부장&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;대리&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:담당호스트:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;김연아&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;최나연&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;박지성&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;박인비&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;South Korea&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='방송판매' id='방송판매_E6691BAD09194860886F61384196E333'>
+            <properties context=''>
+              <relation connection='excel-direct.072idde13dfmer11ayb9r0rnc773' name='방송판매' table='[방송판매$]' type='table'>
+                <columns gridOrigin='A1:X968:no:A1:X968:0' header='yes' outcome='2'>
+                  <column datatype='date' name='방송일' ordinal='0' />
+                  <column datatype='string' name='주문번호' ordinal='1' />
+                  <column datatype='integer' name='담당MD' ordinal='2' />
+                  <column datatype='integer' name='거래처코드' ordinal='3' />
+                  <column datatype='integer' name='제품번호' ordinal='4' />
+                  <column datatype='string' name='담당호스트' ordinal='5' />
+                  <column datatype='string' name='사원명' ordinal='6' />
+                  <column datatype='string' name='직위' ordinal='7' />
+                  <column datatype='date' name='입사일자' ordinal='8' />
+                  <column datatype='string' name='거래처명' ordinal='9' />
+                  <column datatype='string' name='분류' ordinal='10' />
+                  <column datatype='string' name='상품명' ordinal='11' />
+                  <column datatype='integer' name='준비수량' ordinal='12' />
+                  <column datatype='integer' name='판매수량' ordinal='13' />
+                  <column datatype='integer' name='매출계획2024' ordinal='14' />
+                  <column datatype='integer' name='매출계획2023' ordinal='15' />
+                  <column datatype='integer' name='총매출계획' ordinal='16' />
+                  <column datatype='integer' name='판매가격' ordinal='17' />
+                  <column datatype='integer' name='매입원가' ordinal='18' />
+                  <column datatype='integer' name='전년_준비수량' ordinal='19' />
+                  <column datatype='integer' name='전년_판매수량' ordinal='20' />
+                  <column datatype='integer' name='전년_총매출계획' ordinal='21' />
+                  <column datatype='integer' name='전년_판매가격' ordinal='22' />
+                  <column datatype='integer' name='전년_매입원가' ordinal='23' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 6'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='방송판매 (방송판매)' name='federated.1oh9knm1lokmf113pjpw41md6qfz' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1oh9knm1lokmf113pjpw41md6qfz'>
+            <column caption='매출' datatype='integer' name='[Calculation_179581092849168384]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[판매가격]*[판매수량]' />
+            </column>
+            <column-instance column='[Calculation_179581092849168384]' derivation='Sum' name='[pcto:sum:Calculation_179581092849168384:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[방송일]' derivation='Quarter-Trunc' name='[tqr:방송일:qk]' pivot='key' type='quantitative' />
+            <column datatype='date' name='[방송일]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[상품명 (group)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[상품명]' default='&quot;Other&quot;' new-bin='true'>
+                <bin default-name='false' value='&quot;사무용품&quot;'>
+                  <value>&quot;복합기K910&quot;</value>
+                  <value>&quot;탁상용스탠드T20&quot;</value>
+                  <value>&quot;HD모니터39K&quot;</value>
+                  <value>&quot;PQ프로젝터101&quot;</value>
+                  <value>&quot;SBJ-Printer200&quot;</value>
+                  <value>&quot;Sori-Projecter310&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;스마트TV&quot;'>
+                  <value>&quot;스마트TV-DR32&quot;</value>
+                  <value>&quot;스마트TV-DR42&quot;</value>
+                  <value>&quot;K스마트-5050V&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;조리도구&quot;'>
+                  <value>&quot;슬로우쿠킹401P&quot;</value>
+                  <value>&quot;오키슬로우쿠커UV&quot;</value>
+                  <value>&quot;필리스튀김기4P&quot;</value>
+                  <value>&quot;iH압력밥솥-T300&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='string' name='[상품명]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[판매가격]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[판매수량]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.1oh9knm1lokmf113pjpw41md6qfz].[상품명 (group)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1oh9knm1lokmf113pjpw41md6qfz].[pcto:sum:Calculation_179581092849168384:qk]</rows>
+        <cols>[federated.1oh9knm1lokmf113pjpw41md6qfz].[tqr:방송일:qk]</cols>
+      </table>
+      <simple-id uuid='{3068F0AC-DC8C-4154-9A08-99057467294E}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1oh9knm1lokmf113pjpw41md6qfz].[상품명 (group)]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1oh9knm1lokmf113pjpw41md6qfz].[tqr:방송일:qk]</field>
+            <field>[federated.1oh9knm1lokmf113pjpw41md6qfz].[상품명 (group)]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{93DBCE40-E171-4389-A39C-176657B9EBF9}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 6' width='192'>
+      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
+      qDf/HxWmI26YrKyzAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
